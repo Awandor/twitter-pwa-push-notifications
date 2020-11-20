@@ -183,7 +183,20 @@ Documentación: `https://developers.google.com/web/fundamentals/push-notificatio
 
 Opciones de vibración del dispositivo: `https://gearside.com/custom-vibration-patterns-mobile-devices/`
 
+En `sw.js` añadimos ruta para push donde incluimos las opciones de la notificación
 
+
+## Redireccionar desde la notificación
+
+Podemos abrir la app haciendo click en la notificación.
+
+En `sw.js` añadimos event listener de click en la notificación
+
+
+## Borrar suscripciones que ya no son válidas
+
+En `push.js` en la función `sendPushNotification` añadimos el catch y creamos un arreglo con las suscripciones que dan error
+y recorremos el arreglo para ir borrando de `subs-db.json`
 
 
 
