@@ -203,7 +203,7 @@ Si en este punto borro accidentalmente algo puedo recuperarlo con > `git checkou
 Que nos recontruye los archivos tal y como estaban en el último commit.
 
 Enlazamos el repositorio local con un repositorio externo en GitHub donde tenemos cuenta y hemos creado un repositorio
-`git remote add origin https://github.com/Awandor/twitter-pwa.git`
+`git remote add origin https://github.com/Awandor/twitter-pwa-push-notifications.git`
 
 Situarnos en la rama master > `git branch -M master`
 
